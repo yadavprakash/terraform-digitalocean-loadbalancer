@@ -2,7 +2,7 @@
 ### Labels module callled that will be used for naming and tags.
 ###-----------------------------------------------------------------------------
 module "labels" {
-  source      = "git::https://github.com/opsstation/terraform-digitalocean-labels.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-labels.git?ref=v1.0.0"
   name        = var.name
   environment = var.environment
   label_order = var.label_order
