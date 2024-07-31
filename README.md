@@ -18,7 +18,7 @@ This Terraform module creates structured loadbalancer for digitalocean resources
 - Example:Basic
 ```hcl
 module "load-balancer" {
-  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-loadbalancer.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-loadbalancer.git"
   name        = local.name
   environment = local.environment
   region      = local.region
@@ -45,7 +45,7 @@ module "load-balancer" {
 - Example:complete
 ```hcl
 module "load-balancer" {
-  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-loadbalancer.git?ref=v1.0.0"
+  source      = "git::https://github.com/yadavprakash/terraform-digitalocean-loadbalancer.git"
   name        = local.name
   environment = local.environment
   region      = local.region
